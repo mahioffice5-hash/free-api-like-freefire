@@ -48,6 +48,7 @@ Follow these steps to set up and run the API:
     - `ind_config.json`
     - `br_config.json`
     - `europe_config.json`
+    - `bd_config.json`
 
 6. **Run the Flask app**:
     ```bash
@@ -100,6 +101,13 @@ The API uses region-specific JSON files to manage guest accounts.
 
 ### `europe_config.json`
 
+- **Used for**: Guest accounts from the **BANGLADESH (BD)** server..
+- **Format**: Same as above.
+
+ ---
+
+### `bd_config.json`
+
 - **Used for**: Guest accounts from all **other servers** (e.g., Europe).
 - **Format**: Same as above.
 
@@ -124,4 +132,5 @@ GET /like?uid=1234567890
 
 This project was created by [Paul Alfredo](https://github.com/paulafredo).  
 Feel free to check out his GitHub profile for more projects and contributions.
+
 
