@@ -101,14 +101,14 @@ The API uses region-specific JSON files to manage guest accounts.
 
 ### `europe_config.json`
 
-- **Used for**: Guest accounts from the **BANGLADESH (BD)** server..
+- **Used for**: Guest accounts from all **other servers** (e.g., Europe).
 - **Format**: Same as above.
 
  ---
 
 ### `bd_config.json`
 
-- **Used for**: Guest accounts from all **other servers** (e.g., Europe).
+- **Used for**: Guest accounts from the **BANGLADESH (BD)** server. 
 - **Format**: Same as above.
 
 > Replace `"YOUR_UID_X"` and `"YOUR_PASSWORD_X"` with the actual Free Fire guest account credentials.
@@ -132,5 +132,6 @@ GET /like?uid=1234567890
 
 This project was created by [Paul Alfredo](https://github.com/paulafredo).  
 Feel free to check out his GitHub profile for more projects and contributions.
+
 
 
